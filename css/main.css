@@ -1,5 +1,13 @@
+* {
+	background-color: pink;
+}
+
 #number {
 	width: 1000px;
-	height: 500px;
+	height: px;
 	background-color: pink;
+}
+
+div.enter {
+	color: #fffff;
 }

@@ -41,3 +41,24 @@ body, div, a {
 #operators {
 	margin: 0px;
 }
+f
+a {
+	cursor: pointer;
+}
+
+#operators a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	float: left;
+	padding: 2px;
+	margin: 5px 6px;
+	text-align: center;
+	text-decoratioon: none;
+	color: black;
+	font-size: 39px;
+	background: -webkit-gradient(linear, left top, left bottom, from (#EDEDED), to (#DCDCDC));
+	background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+	border-radius: 10px;
+	border-radius-color: black;
+}

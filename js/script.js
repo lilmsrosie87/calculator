@@ -8,12 +8,12 @@ $(document).ready(function(){
             }
         } 
     };
-	var number = ""
-	var newnumber = ""
-	var operator = ""
-	var string = ""
-	var totaldiv = $(#total)
-	total.text("0")
+    var number = ""
+    var newnumber = ""
+    var operator = ""
+    var string = ""
+    var totaldiv = $(#total)
+    totaldiv.text("0")
 	
 });
 

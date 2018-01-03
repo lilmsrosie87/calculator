@@ -12,8 +12,8 @@ $(document).ready(function(){
     var newnumber = ""
     var operator = ""
     var string = ""
-    var totaldiv = $(#total)
-    totaldiv.text("0")
+    var #totaldiv = $(#total);
+    total.text("0");
 	
 });
 

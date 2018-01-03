@@ -8,14 +8,18 @@ $(document).ready(function(){
             }
         } 
     };
-    var number = ""
-    var newnumber = ""
-    var operator = ""
-    var string = ""
-    var #totaldiv = $(#total);
+    var number = "";
+    var newnumber = "";
+    var operator = "";
+    var string = "";
+    var totaldiv = $(#total);
     total.text("0");
 	
+$("#number a").not("#clear,#clearall").click(function(){
+	append.text("#operator");
+	
 });
+
 
 
 // $(document).ready(function(){

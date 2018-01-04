@@ -12,11 +12,18 @@ $(document).ready(function(){
     var newnumber = "";
     var operator = "";
     var string = "";
-    var totaldiv = $(#total);
+    var totaldiv = $("#total");
     total.text("0");
 	
 $("#number a").not("#clear,#clearall").click(function(){
 	append.text("#operator");
+	
+	
+	// $("#number a").not("#clear,#clearall").click(function(){
+        // $("#number a").append.html("number");
+        // $("#totaldiv").text("number");
+        // $(testNumLength).text("number");
+// });
 	
 });
 

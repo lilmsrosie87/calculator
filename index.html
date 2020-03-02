@@ -2,24 +2,27 @@
 <html>
 	<head>
 	<title>Rosie's Muthaphuckin' Calculator</title>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<!-- calling a line to Google's API -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- added Tailwind; spice up CSS in HTML -->
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/45265a0dcf.js"></script>
 	</head>
 	
-<body>
+<body class="bg-black">
  <!-- help from Lenora Porter -->
  
 				<main>
 					<article class="phone">
 						
-						<header>
+						<header class="text-white">
 						<div>
 							<p> 3:13 PM </p>
-							<i class="fa fa-signal" aria-hidden="true"></i>
-							<i class="fas fa-wifi" aria-hidden="true"></i>
-							<i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+							<!-- removed 'aria-hidden="true"' -->
+							<i class="fa fa-signal"></i>
+							<i class="fas fa-wifi"></i>
+							<i class="fa fa-battery-three-quarters"></i>
 						</div>
 						
 						</header>

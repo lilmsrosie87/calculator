@@ -1,6 +1,9 @@
 
-/* Tailwind use */
+/* Tailwind used for 2nd calculator */
 
+.phone {
+	width: 275px;
+}
 
 
 /* * old CSS for previous calculator design
